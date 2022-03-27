@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+main{
+    height: 100vh;
+    background: whitesmoke url(Imagens/background.jpg) no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-git{
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #E31C2B;
+}
+
+p{
+    align-self: center;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-30%);
+    bottom: -50%;
+    width: 35rem;
+    font-size: 1.4rem;
+}
+
+.red{
+    color: rgb(75, 11, 11);
+    font-weight: bold;
+}
