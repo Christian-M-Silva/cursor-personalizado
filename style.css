@@ -24,6 +24,7 @@ main{
 a{
     text-decoration: none;
     color: #E31C2B;
+    cursor: pointer;
 }
 
 p{
