@@ -58,7 +58,7 @@ p{
 
 @media screen and (max-width: 768px){   
     main{
-        background-image: linear-gradient(to top, #3b3838 0%, black 30%);
+        background: linear-gradient(180deg, rgb(3 3 18) 59%, rgb(149 5 5) 73%);
     }
 
     a{
@@ -73,6 +73,6 @@ p{
     }
 
     .emphasis{
-        color: #da2635;
+        color: #ed1c1c;
     }
 }
