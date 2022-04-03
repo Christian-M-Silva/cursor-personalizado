@@ -57,7 +57,7 @@ p{
 }
 
 
-@media screen and (max-width: 768px){   
+@media screen and (max-width: 892px){   
     main{
         background: linear-gradient(180deg, rgb(3 3 18) 59%, rgb(149 5 5) 73%);
     }
