@@ -10,7 +10,7 @@ body{
 
 main{
     height: 100vh;
-    background: whitesmoke url(Imagens/background.jpg) no-repeat ;
+    background: whitesmoke url(Imagens/background.jpg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,42 @@ p{
     font-size: 1.4rem;
 }
 
-.red{
+.emphasis{
     color: rgb(75, 11, 11);
     font-weight: bold;
+}
+
+@media screen and (min-width: 2560px){  
+    a{
+        font-size: 4rem;
+    }
+    p{
+        left: 8%;
+        top: 35%;
+        width: 67rem;
+        font-size: 2.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){   
+    main{
+        background-image: linear-gradient(to top, #3b3838 0%, black 30%);
+    }
+
+    a{
+        color: whitesmoke;
+    }
+
+    p{
+        font-size: 13px;
+        width: 80vw;
+        left: 1vw;
+        color: whitesmoke;
+    }
+
+    .emphasis{
+        color: #da2635;
+    }
 }
