@@ -43,6 +43,8 @@ p{
     font-weight: bold;
 }
 
+
+
 @media screen and (min-width: 2560px){  
     a{
         font-size: 4rem;
@@ -94,5 +96,14 @@ p{
 @media screen and (min-width: 390px) and (max-width: 450px){
     p{
         font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 538px){
+
+    @media screen and (orientation: landscape) {
+        main{
+            background: linear-gradient(180deg, rgb(3 3 18) 59%, rgb(149 5 5) 73%);
+        }
     }
 }
