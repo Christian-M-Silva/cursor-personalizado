@@ -21,7 +21,7 @@ main{
     font-size: 2rem;
 }
 
-a{
+.cms{
     text-decoration: none;
     color: #E31C2B;
     cursor: pointer;
@@ -53,13 +53,13 @@ p{
         width: 67rem;
         font-size: 2.5rem;
     }
-
 }
 
 
 @media screen and (max-width: 892px){   
     main{
-        background: linear-gradient(180deg, rgb(3 3 18) 59%, rgb(149 5 5) 73%);
+        background: url(Imagens/Bacground-mobile.png) no-repeat right bottom;
+        background-size: cover;
     }
 
     a{
@@ -67,13 +67,32 @@ p{
     }
 
     p{
-        font-size: 13px;
-        width: 80vw;
+        font-size: .7rem;
+        width: 82vw;
         left: 1vw;
+        top: 20%;
         color: whitesmoke;
     }
 
     .emphasis{
         color: #ed1c1c;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 892px){
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 550px){
+    p{
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 450px){
+    p{
+        font-size: .8rem;
     }
 }
