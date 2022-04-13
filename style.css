@@ -6,15 +6,10 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-}
-
-.circle{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    border: 2px solid blue;
-    border-radius: 60px;
-    background: rgba(255, 255, 255, 0); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 main{
@@ -53,7 +48,9 @@ p{
     font-weight: bold;
 }
 
-
+.emphasis:hover{
+    background-color: #094c7093;
+}
 
 @media screen and (min-width: 2560px){  
     a{
@@ -67,6 +64,16 @@ p{
     }
 }
 
+@media screen and (min-width: 893px){ 
+    .circle{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        border: 2px solid blue;
+        border-radius: 60px;
+        background: rgba(255, 255, 255, 0); 
+    }
+}
 
 @media screen and (max-width: 892px){   
     main{
