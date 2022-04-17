@@ -8,17 +8,8 @@ body.addEventListener('mousemove', getCoordinate) //adicionando o evento de move
 function getCoordinate(event) {
     let x = event.clientX
     let y = event.clientY
-        //Antes de continuar ver a possibilidade de em vez de usar o if para isso ver as propriedades do onscroll para quando ele for ativado desabilitar o movimento da bolinha
-    
-    //Pegando as propriedades do event, os dois primeiro é para coordenada e os dois últimos para impedir que a bolinha ultrapasse a tela e assim não crie um scroll
-
+    //Pegando as propriedades do event, os dois primeiro é para a coordenada
     //console.log(event)
 
-    
-        circle.style.transform = `translate(${x - 13}px,${y -7}px)`
-    
-    //condição que vai filtrar se a bolinha está dentro das coordenadas para não criar scroll sendo positivo ele vai passar para o circulo a coordenada do mouse e assim vai passar para o estilo do circle o translate com que contem as coordenadas do mouse ajustadas.
-
-
-
+    circle.style.transform = `translate(${x - 13}px,${y -7}px)`
 }

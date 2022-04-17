@@ -46,10 +46,15 @@ p{
 .emphasis{
     color: rgb(75, 11, 11);
     font-weight: bold;
+    transform-origin: bottom center;    
 }
 
 .emphasis:hover{
-    background-color: #094c7093;
+    background-color: #094c7093; /*Ver o Transition ou colocar uma span dentro com fundo transparente*/
+}
+
+div::after{
+    background-color: #E31C2B;
 }
 
 @media screen and (min-width: 2560px){  
