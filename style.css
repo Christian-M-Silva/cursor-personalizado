@@ -32,29 +32,22 @@ main{
     cursor: pointer;
 }
 
-p{
+p {
     align-self: center;
     position: relative;
     top: 30%;
     left: 10%;
     transform: translateY(-30%);
     bottom: -50%;
-    width: 35rem;
-    font-size: 1.4rem;
+    width: 38rem;
+    font-size: 1.4rem; 
 }
 
 .emphasis{
     color: rgb(75, 11, 11);
     font-weight: bold;
-    transform-origin: bottom center;    
-}
-
-.emphasis:hover{
-    background-color: #094c7093; /*Ver o Transition ou colocar uma span dentro com fundo transparente*/
-}
-
-div::after{
-    background-color: #E31C2B;
+    position: relative;   
+    display: inline-block;
 }
 
 @media screen and (min-width: 2560px){  
@@ -77,6 +70,19 @@ div::after{
         border: 2px solid blue;
         border-radius: 60px;
         background: rgba(255, 255, 255, 0); 
+    }
+
+    .efect{
+        background-color: #0625364d;
+        height: 0%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        transition: height 1s; 
+    }
+    
+    .emphasis:hover .efect{
+        height: 100%;
     }
 }
 
