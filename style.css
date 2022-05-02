@@ -81,13 +81,124 @@ p{
         border-radius: 60px;
         background: rgba(134, 47, 47, 0.993);
     }
-    
+
     .circleOn{
-        width: 300px;
+        width: 350px;
         height: 200px;
-        border-radius: 15px;
-        background: url(Imagens/andy.jpg);
+        background-repeat:  no-repeat;
         z-index: 2;
+        border-radius: 15px;
+    }
+
+    .batman{
+        background: url(Imagens/batman.jpg);
+        background-size: 100% 100%;
+    }
+
+    .matt{
+        background: url(Imagens/matt.png);
+        background-size: 100% 100%;
+    }
+
+    .robert{
+        background: url(Imagens/robert.jpg);
+        background-size: 100% 100%;
+    }
+    .homem{
+        background: url(Imagens/homem-morcego.png);
+        background-size: 100%;
+    }
+    
+    .gotham{
+        background: url(Imagens/gotham.jpg);
+        background-size: 100% 100%;
+    }
+
+    .pinguim{
+        background: url(Imagens/pinguim.png);
+        background-size: 100% 100%;
+    }
+
+    .colin{
+        width: 170px;
+        background: url(Imagens/colin.jpg);
+        background-size: 100% 100%;
+    }
+
+    .carmine{
+        background: url(Imagens/carminefalcone.jpg);
+        background-size: 100%;
+    }
+
+    .john{
+        background: url(Imagens/john.jpg);
+        background-size: 100%;
+    }
+
+    .bruce{
+        background: url(Imagens/Bruce_Wayne.jpg);
+        background-size: 100%;
+    }
+
+    .selina{
+        background: url(Imagens/selina.jpg);
+        background-size: 100%;
+        height: 250px;
+    }
+
+    .zoe{
+        background: url(Imagens/zoe.jpg);
+        background-size: 100%;
+        height: 290px;
+    }
+
+    .mulher{
+        background: url(Imagens/mulher-gato.jpg);
+        background-size: 100%;
+        background-position:  10px -147px;
+    }
+
+    .jim{
+        width: 250px;
+        height: 140px;
+        background: url(Imagens/jim.jpg);
+        background-size: 100%;
+    }
+
+    .jeffrey{
+        width: 160px;
+        background: url(Imagens/jeffrey.jpg);
+        background-size: 160px;
+    }
+
+    .alfred{
+        height: 180px;
+        background: url(Imagens/alfred.jpg);
+        background-size: 100%;
+    }
+
+    .andy{
+        width: 160px;
+        background: url(Imagens/andy.jpg);
+        background-size: 160px;
+    }
+
+    .charada{
+        background: url(Imagens/The_Riddler.jpg);
+        background-size: 100%;
+    }
+
+    .paul{
+        width: 160px;
+        background: url(Imagens/paul.jpg);
+        background-size: 160px;
+    }
+
+    .cavaleiro{
+        background: url(Imagens/cavaleiro.jpg);
+        background-size: 100%;
+        width: 260px;
+        height: 145px;
     }
 
     .efect{
