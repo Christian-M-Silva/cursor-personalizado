@@ -19,7 +19,7 @@
 
 - The layout will have to adapt to each screen size.
 
-- On devices with course the user will be able to see a preview of the image when hovering the mouse over the highlighted words.
+- On devices with a cursor, the user will be able to see a preview of the image by hovering the mouse over the highlighted words.
 
 ### Solution link
 
