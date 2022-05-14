@@ -25,6 +25,10 @@
 
 [Click here to go to the project](https://christian-m-silva.github.io/cursor-personalizado/)
 
+### Solution video
+
+[Click here to go to the video](https://youtu.be/KaUqwrxMFFs)
+
 ### Screenshot
 
 Desktop ![](Print/The-Batman-Desktop.PNG) 
