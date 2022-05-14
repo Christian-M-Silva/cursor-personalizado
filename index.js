@@ -9,7 +9,7 @@ body.addEventListener('mousemove', getCoordinate) //adicionando o evento de move
 function getCoordinate(event) {
     let x = event.clientX
     let y = event.clientY
-    divEffect.style.transform = `translate(${x + 5}px,${y - 60}px)`
+    divEffect.style.transform = `translate(${x + 5}px,${y - 45}px)`
     //Pegando as propriedades do event, os dois primeiro é para a coordenada e ai os valores que eu pego eu uso como coordenadas do mouse
 }
 
